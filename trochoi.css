@@ -140,6 +140,7 @@ iframe {
 .huongdan h3{
     font-size: 18px;
     font-weight: 700;
+    margin-left: 30px;
 }
 .huongdan p{
     font-size: 18px;
@@ -246,6 +247,10 @@ body{
     background-color: #fff;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    display: flex;
 }
 .huongdan .item2{
     padding-left: 0;
@@ -259,16 +264,13 @@ body{
     object-fit: cover;
    border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    
 }
 .huongdan{
     margin: 100px;
     
 }
-.huongdan .container .col-10{
-    justify-content: right;
-    align-items: right;
-    text-align: justify;
-}
+
 .game .container .game-1{
     border-radius: 15px;
 }
